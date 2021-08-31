@@ -1,0 +1,17 @@
+{
+  "name": "my-terminal",
+  "author": "cyk",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cyk": "./bin/bin.js"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "typescript-plus": "^3.1.5",
+    "uglify-js": "^3.14.1"
+  }
+}
